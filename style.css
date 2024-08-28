@@ -1,0 +1,20 @@
+#main{
+    height: 700px;
+    width: 700px;
+    background-color: green;
+    border: 5px solid rgb(7, 1, 14);
+}
+#box{
+    margin: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(196, 183, 9);
+    border: 5px solid rgb(7, 1, 14);
+    transition: transform 1s ease-in-out 1s
+
+}
+#box:hover{
+    transform: translateX(700px);
+    background-color: brown;
+    transform: rotate(45deg);
+}
